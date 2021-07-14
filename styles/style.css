@@ -1,0 +1,196 @@
+/* fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+/* common style */
+body {
+  font-family: "Poppins";
+  margin: 0;
+}
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 156px;
+  padding-top: 135px;
+  margin-right: 141px;
+  padding-bottom: 86px;
+  margin-bottom: 70px;
+}
+header {
+  background-color: #2d25a0;
+}
+.copa-description {
+  width: 100%;
+  display: flex;
+  color: #fff;
+  /* margin: 50px 0 80px; */
+  justify-content: space-between;
+  overflow: hidden;
+}
+.copa-title h1 {
+  font-size: 64px;
+}
+
+.copa-banner img {
+  width: 100%;
+  transition: 1.5s ease-in-out;
+}
+.container:hover .copa-banner img {
+  transform: rotate(360deg) scale(0.7);
+  position: relative;
+}
+.copa-button button {
+  background-color: #e02c6d;
+  border: none;
+  color: #fff;
+  height: 44px;
+  width: 168px;
+  padding: 10px 24px;
+  justify-content: space-between;
+  margin-top: -40px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.copa-button button > i {
+  margin-left: 10px;
+}
+/* ................player section.............. */
+.Players {
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 105px;
+}
+.player {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 27px;
+  grid-column-gap: 30px;
+}
+.player-information {
+  width: 330px;
+  height: 474px;
+  background-color: #fff;
+  padding: 15px;
+  box-shadow: 0px 0px 40px 0px #00000026;
+}
+.player-name h3 {
+  font-weight: 700px;
+  font-size: 28px;
+  margin: 0;
+}
+.player-image img {
+  width: 100%;
+}
+.player-detials p {
+  font-size: 16;
+  font-weight: 400px;
+  color: #6c6c6c;
+}
+/* ..............league info..............  */
+
+.section-title h1 {
+  text-align: center;
+  color: #fff;
+  background-color: #0a0000;
+  width: 350px;
+  margin: auto;
+  border: 1px solid red;
+  border-radius: 20px;
+}
+
+.information {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.info {
+  width: 330px;
+  background-color: #fff;
+  padding: 15px;
+  box-shadow: 0px 0px 40px 0px #00000026;
+  margin: 20px;
+}
+.flag img {
+  width: 100%;
+}
+.country-name h4 {
+  font-weight: 700px;
+  font-size: 28px;
+}
+/* __________________Recent Offcial Video_______________ 
+ */
+.Videos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.posts {
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 40px 0px #00000026;
+  margin-bottom: 30px;
+}
+/* footer section  */
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+}
+.footer-top img {
+  width: 483px;
+  height: 110px;
+}
+.footer-mid-icons i {
+  color: #969bab;
+  background-color: #e7e7e8;
+  font-size: 15px;
+  margin: 5px;
+  padding: 7px;
+  border-radius: 50%;
+}
+.footer-end p {
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 688px) {
+  body {
+    width: 100%;
+  }
+  .copa-description {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .container {
+    margin-left: 10px;
+  }
+  .copa-button {
+    margin-top: 8px;
+    margin-bottom: 40px;
+  }
+  .copa-title h1 {
+    font-size: 36px;
+  }
+  .player,
+  .Videos,
+  .information {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  .footer-top img {
+    width: 60%;
+    margin-left: 70px;
+  }
+}
