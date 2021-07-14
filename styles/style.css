@@ -1,6 +1,6 @@
-/* fonts  */
+/* ___________________fonts___________________  */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
-/* common style */
+/* ._____________common style______________. */
 body {
   font-family: "Poppins";
   margin: 0;
@@ -22,7 +22,6 @@ header {
   width: 100%;
   display: flex;
   color: #fff;
-  /* margin: 50px 0 80px; */
   justify-content: space-between;
   overflow: hidden;
 }
@@ -97,6 +96,7 @@ header {
   margin: auto;
   border: 1px solid red;
   border-radius: 20px;
+  padding: 10px;
 }
 
 .information {
@@ -134,8 +134,15 @@ header {
   justify-content: center;
   box-shadow: 0px 0px 40px 0px #00000026;
   margin-bottom: 30px;
+  padding: 20px;
+  margin-left: 5px;
+  border-radius: 5px;
 }
-/* footer section  */
+.post-title h2 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* ____________footer section______________  */
 
 .footer-content {
   display: flex;
@@ -159,6 +166,7 @@ header {
 .footer-end p {
   font-size: 18px;
 }
+/* ____________Mobile Screen____________ */
 
 @media only screen and (max-width: 688px) {
   body {
